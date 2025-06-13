@@ -1,0 +1,35 @@
+name: exibicao_stl_flutter
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_web_plugins:
+    sdk: flutter
+  three_js_core: ^0.1.8
+  three_js_core_loaders: ^0.1.0
+  three_js_simple_loaders: ^0.1.0
+  three_js_controls: ^0.1.0
+  web: ^1.1.1
+  universal_html: ^2.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  assets:
+    - assets/models/
+
+  uses-material-design: true
